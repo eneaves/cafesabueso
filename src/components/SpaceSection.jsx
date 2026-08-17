@@ -14,7 +14,7 @@ export default function SpaceSection() {
       <div className="wrap">
         <div className="space-grid">
           <div className="space-copy">
-            <span className="section-eyebrow">✳ Nuestra casa</span>
+            <span className="section-eyebrow">Nuestra casa</span>
             <h2 className="section-title">El Espacio</h2>
             <p>
               Café Sabueso es cafetería, foro y taller a la vez: un espacio autogestivo en constante construcción, hecho

@@ -105,7 +105,7 @@ export default function EventModal({ event, reservedCount, onReserve, onClose })
             </div>
             <div className="reserve-actions">
               {isReserved ? (
-                <span className="rsvp-confirmed">✓ ¡Lugar apartado para {reservedCount}!</span>
+                <span className="rsvp-confirmed">¡Lugar apartado para {reservedCount}!</span>
               ) : (
                 <button type="submit" className="btn btn-pop">
                   Apartar Lugar / RSVP

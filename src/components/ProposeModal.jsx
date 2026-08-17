@@ -25,7 +25,7 @@ export default function ProposeModal({ onClose }) {
         <button className="modal-close" aria-label="Cerrar" onClick={onClose}>
           <CloseIcon />
         </button>
-        <span className="section-eyebrow">✳ Súmate a la agenda</span>
+        <span className="section-eyebrow">Súmate a la agenda</span>
         <h2>Proponer Taller / Evento</h2>
         <p className="desc" style={{ marginTop: ".4rem" }}>
           Cuéntanos tu idea y te contactamos para agendarla en Café Sabueso.

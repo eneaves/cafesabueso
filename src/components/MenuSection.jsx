@@ -10,7 +10,7 @@ export default function MenuSection() {
       <div className="wrap">
         <div className="section-head">
           <div>
-            <span className="section-eyebrow">✳ Hecho en casa</span>
+            <span className="section-eyebrow">Hecho en casa</span>
             <h2 className="section-title">Carta / Menú</h2>
             <p className="section-desc">Bebidas artesanales, repostería del día y combos pensados para quedarte a crear.</p>
           </div>

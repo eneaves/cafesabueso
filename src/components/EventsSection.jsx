@@ -24,7 +24,7 @@ export default function EventsSection({ reserved, onReserve }) {
       <div className="wrap">
         <div className="section-head">
           <div>
-            <span className="section-eyebrow">✳ Agenda estilo Luma</span>
+            <span className="section-eyebrow">Agenda estilo Luma</span>
             <h2 className="section-title">Talleres y Eventos</h2>
             <p className="section-desc">
               Aparta tu lugar en segundos. Te llega la confirmación por correo y WhatsApp, más el enlace para agregarlo a
@@ -77,7 +77,7 @@ export default function EventsSection({ reserved, onReserve }) {
                   <div className="event-meta">
                     <span className="event-price">{e.price}</span>
                     {reserved[e.id] ? (
-                      <span className="reserved-pill">✓ Apartado ×{reserved[e.id]}</span>
+                      <span className="reserved-pill">Apartado ×{reserved[e.id]}</span>
                     ) : (
                       <span className="event-spots">{e.spots} lugares</span>
                     )}
